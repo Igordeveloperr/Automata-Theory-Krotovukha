@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1280" viewBox="0 0 1500 1280" role="img" aria-labelledby="title desc">
+<title id="title">Граф управляющего автомата игры «Кротовуха»</title>
+<desc id="desc">Готовность, ожидание такта, проверка поля, посадка, проверка лампы, очистка столбца, пауза и завершение. Стоп восстанавливает начальное поле.</desc>
+<rect width="100%" height="100%" fill="white"/>
+<text x="750" y="49" text-anchor="middle" dominant-baseline="central" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" fill="#1d5644">КРОТОВУХА · ГРАФ АВТОМАТА</text>
+<text x="750" y="91" text-anchor="middle" dominant-baseline="central" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" fill="#60736e">Основной цикл при скорости s &gt; 0  ·  n — число кротов  ·  p — вероятность аварии, %</text>
+<circle cx="35" cy="230" r="11" fill="#263b39"/>
+<polyline points="46,230 90,230" fill="none" stroke="#5c7470" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="90.00,230.00 80.10,234.78 80.10,225.22" fill="#5c7470"/>
+<polyline points="370,220 560,220" fill="none" stroke="#5c7470" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="560.00,220.00 550.10,224.78 550.10,215.22" fill="#5c7470"/>
+<polyline points="730,285 730,400" fill="none" stroke="#5c7470" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="730.00,400.00 725.22,390.10 734.78,390.10" fill="#5c7470"/>
+<polyline points="900,455 1080,455" fill="none" stroke="#9b6341" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="1080.00,455.00 1070.10,459.78 1070.10,450.22" fill="#9b6341"/>
+<polyline points="730,510 730,625" fill="none" stroke="#5c7470" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="730.00,625.00 725.22,615.10 734.78,615.10" fill="#5c7470"/>
+<polyline points="730,735 730,850" fill="none" stroke="#5c7470" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="730.00,850.00 725.22,840.10 734.78,840.10" fill="#5c7470"/>
+<polyline points="900,905 1080,905" fill="none" stroke="#9b6341" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="1080.00,905.00 1070.10,909.78 1070.10,900.22" fill="#9b6341"/>
+<polyline points="560,905 470,905 470,260 560,260" fill="none" stroke="#5c7470" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="560.00,260.00 550.10,264.78 550.10,255.22" fill="#5c7470"/>
+<polyline points="1410,905 1450,905 1450,135 730,135 730,175" fill="none" stroke="#5c7470" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="730.00,175.00 725.22,165.10 734.78,165.10" fill="#5c7470"/>
+<polyline points="900,210 1080,210" fill="none" stroke="#6167a2" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="1080.00,210.00 1070.10,214.78 1070.10,205.22" fill="#6167a2"/>
+<polyline points="1080,265 900,265" fill="none" stroke="#6167a2" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="900.00,265.00 909.90,260.22 909.90,269.78" fill="#6167a2"/>
+<rect x="90" y="175" width="280" height="110" rx="18" fill="#edf8f2" stroke="#2c8263" stroke-width="2"/>
+<text x="230.0" y="209" text-anchor="middle" dominant-baseline="central" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#2c8263">q0 · Готовность</text>
+<text x="230.0" y="251" text-anchor="middle" dominant-baseline="central" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" fill="#263b39">Настройка начального поля</text>
+<rect x="560" y="175" width="340" height="110" rx="18" fill="#edf8f2" stroke="#2c8263" stroke-width="2"/>
+<text x="730.0" y="209" text-anchor="middle" dominant-baseline="central" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#2c8263">q1 · Ожидание такта</text>
+<text x="730.0" y="251" text-anchor="middle" dominant-baseline="central" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" fill="#263b39">Ожидание события таймера</text>
+<rect x="1080" y="175" width="330" height="110" rx="18" fill="#f1effb" stroke="#6860a5" stroke-width="2"/>
+<text x="1245.0" y="209" text-anchor="middle" dominant-baseline="central" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#6860a5">qP · Пауза</text>
+<text x="1245.0" y="251" text-anchor="middle" dominant-baseline="central" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" fill="#263b39">Таймер остановлен</text>
+<rect x="560" y="400" width="340" height="110" rx="18" fill="#edf8f2" stroke="#2c8263" stroke-width="2"/>
+<text x="730.0" y="434" text-anchor="middle" dominant-baseline="central" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#2c8263">q2 · Проверка поля</text>
+<text x="730.0" y="476" text-anchor="middle" dominant-baseline="central" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" fill="#263b39">Снять подсветку; проверить n</text>
+<rect x="1080" y="400" width="330" height="110" rx="18" fill="#fff4e8" stroke="#9b6341" stroke-width="2"/>
+<rect x="1086" y="406" width="318" height="98" rx="13" fill="#fff4e8" stroke="#9b6341" stroke-width="1"/>
+<text x="1245.0" y="434" text-anchor="middle" dominant-baseline="central" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#9b6341">q6 · Завершение</text>
+<text x="1245.0" y="476" text-anchor="middle" dominant-baseline="central" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" fill="#263b39">Таймер стоп; «Игра окончена!»</text>
+<rect x="560" y="625" width="340" height="110" rx="18" fill="#edf8f2" stroke="#2c8263" stroke-width="2"/>
+<text x="730.0" y="659" text-anchor="middle" dominant-baseline="central" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#2c8263">q3 · Посадка капусты</text>
+<text x="730.0" y="701" text-anchor="middle" dominant-baseline="central" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" fill="#263b39">Случайный крот → капуста</text>
+<rect x="560" y="850" width="340" height="110" rx="18" fill="#edf8f2" stroke="#2c8263" stroke-width="2"/>
+<text x="730.0" y="884" text-anchor="middle" dominant-baseline="central" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#2c8263">q4 · Проверка лампы</text>
+<text x="730.0" y="926" text-anchor="middle" dominant-baseline="central" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" fill="#263b39">Случайное испытание</text>
+<rect x="1080" y="850" width="330" height="110" rx="18" fill="#fff4e8" stroke="#9b6341" stroke-width="2"/>
+<text x="1245.0" y="884" text-anchor="middle" dominant-baseline="central" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#9b6341">q5 · Очистка столбца</text>
+<text x="1245.0" y="926" text-anchor="middle" dominant-baseline="central" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" fill="#263b39">10 клеток → кроты; подсветка</text>
+<rect x="432.0" y="182" width="66.0" height="33" rx="5" fill="#ffffff" stroke="#ffffff" stroke-width="0"/>
+<text x="465" y="198" text-anchor="middle" dominant-baseline="central" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" fill="#263b39">Старт</text>
+<rect x="662.515625" y="329" width="134.96875" height="33" rx="5" fill="#ffffff" stroke="#ffffff" stroke-width="0"/>
+<text x="730" y="345" text-anchor="middle" dominant-baseline="central" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" fill="#263b39">Такт таймера</text>
+<rect x="959.0" y="417" width="62.0" height="33" rx="5" fill="#ffffff" stroke="#ffffff" stroke-width="0"/>
+<text x="990" y="433" text-anchor="middle" dominant-baseline="central" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" fill="#263b39">n = 0</text>
+<rect x="699.0" y="552" width="62.0" height="33" rx="5" fill="#ffffff" stroke="#ffffff" stroke-width="0"/>
+<text x="730" y="568" text-anchor="middle" dominant-baseline="central" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" fill="#263b39">n &gt; 0</text>
+<rect x="629.5" y="778" width="201.0" height="33" rx="5" fill="#ffffff" stroke="#ffffff" stroke-width="0"/>
+<text x="730" y="794" text-anchor="middle" dominant-baseline="central" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" fill="#263b39">Посадка выполнена</text>
+<rect x="950.5" y="867" width="79.0" height="33" rx="5" fill="#ffffff" stroke="#ffffff" stroke-width="0"/>
+<text x="990" y="883" text-anchor="middle" dominant-baseline="central" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" fill="#263b39">p / 100</text>
+<rect x="951.5" y="909" width="77.0" height="33" rx="5" fill="#ffffff" stroke="#ffffff" stroke-width="0"/>
+<text x="990" y="925" text-anchor="middle" dominant-baseline="central" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" fill="#263b39">Авария</text>
+<rect x="951.0" y="107" width="328.0" height="33" rx="5" fill="#ffffff" stroke="#ffffff" stroke-width="0"/>
+<text x="1115" y="123" text-anchor="middle" dominant-baseline="central" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" fill="#263b39">Столбец очищен → ожидание такта</text>
+<rect x="956.5" y="174" width="67.0" height="33" rx="5" fill="#ffffff" stroke="#ffffff" stroke-width="0"/>
+<text x="990" y="190" text-anchor="middle" dominant-baseline="central" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" fill="#263b39">Пауза</text>
+<rect x="927.0" y="282" width="126.0" height="33" rx="5" fill="#ffffff" stroke="#ffffff" stroke-width="0"/>
+<text x="990" y="298" text-anchor="middle" dominant-baseline="central" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" fill="#263b39">Продолжить</text>
+<rect x="237.0" y="726" width="130.0" height="33" rx="5" fill="#ffffff" stroke="#ffffff" stroke-width="0"/>
+<text x="302" y="742" text-anchor="middle" dominant-baseline="central" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#263b39">Без аварии</text>
+<rect x="239.5" y="764" width="125.0" height="33" rx="5" fill="#ffffff" stroke="#ffffff" stroke-width="0"/>
+<text x="302" y="780" text-anchor="middle" dominant-baseline="central" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#263b39">1 − p / 100</text>
+<polyline points="407,763 459,763" fill="none" stroke="#93aaa2" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="90,1018 1410,1018" fill="none" stroke="#c4d6ce" stroke-width="2" stroke-linejoin="round" stroke-dasharray="8 8"/>
+<rect x="90" y="1050" width="1320" height="85" rx="16" fill="#edf4f0" stroke="#edf4f0" stroke-width="0"/>
+<text x="750" y="1078" text-anchor="middle" dominant-baseline="central" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="700" fill="#1d5644">СТОП → q0</text>
+<text x="750" y="1111" text-anchor="middle" dominant-baseline="central" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" fill="#263b39">Из активного режима и q6: остановить таймер и восстановить начальное поле.</text>
+<text x="750" y="1180" text-anchor="middle" dominant-baseline="central" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" fill="#263b39">q2–q5 выполняются внутри одного такта. Выход закрывает приложение из любого состояния.</text>
+<text x="750" y="1223" text-anchor="middle" dominant-baseline="central" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" fill="#60736e">При s = 0 новых ходов нет; увеличение скорости возобновляет активную симуляцию без паузы.</text>
+</svg>

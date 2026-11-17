@@ -1,0 +1,25 @@
+stateDiagram-v2
+    direction TB
+    state "q0 · Готовность" as Ready
+    state "q1 · Ожидание такта" as Waiting
+    state "q2 · Проверка поля" as Check
+    state "q3 · Посадка капусты" as Plant
+    state "q4 · Проверка лампы" as Lamp
+    state "q5 · Очистка столбца" as Clear
+    state "q6 · Завершение" as Finished
+    state "qP · Пауза" as Paused
+
+    [*] --> Ready
+    Ready --> Waiting: Старт, скорость > 0
+    Waiting --> Check: Такт таймера
+    Check --> Finished: n = 0 / остановить таймер
+    Check --> Plant: n > 0
+    Plant --> Lamp: Посадка выполнена
+    Lamp --> Waiting: Без аварии, 1 − p / 100
+    Lamp --> Clear: Авария, p / 100
+    Clear --> Waiting: Столбец очищен
+    Waiting --> Paused: Пауза
+    Paused --> Waiting: Продолжить, скорость > 0
+    Waiting --> Ready: Стоп / восстановить поле
+    Paused --> Ready: Стоп / восстановить поле
+    Finished --> Ready: Стоп / восстановить поле
